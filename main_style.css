@@ -125,3 +125,19 @@ div.flex-container {
     max-width: 50%;
     padding: 5px;
 }
+
+/* Decos */
+.low-threat {
+    color: orange;
+}
+.medium-threat {
+    color: orangered;
+}
+.high-threat {
+    color: red;
+    font-weight: bold;
+}
+.very-high-threat {
+    color: red;
+    font-weight: bolder;
+}
