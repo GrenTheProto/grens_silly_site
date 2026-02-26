@@ -45,7 +45,7 @@ img.center-img {
     margin-right: auto;
 }
 img.rounded-img {
-    border-radius: 25px;
+    border-radius: 10%;
 }
 div.centered-column {
     margin: auto;
@@ -125,4 +125,12 @@ div.flex-container {
     flex: 50%;
     max-width: 50%;
     padding: 5px;
+}
+
+/* Resizing */
+
+@media screen and (max-width: 600px) {
+    .html {
+        font-size: 40px;
+    }
 }
