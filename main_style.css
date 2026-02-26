@@ -7,12 +7,12 @@ body {
 header {
     background-color: #8080AA;
     text-align: center;
-    padding: 25px;
+    padding: 1.563rem;
 }
 footer {
     background-color: #8080AA;
     text-align: center;
-    padding: 10px;
+    padding: 10;
 }
 h1, h2, h3 {
     font-family: 'PT Serif', serif;
