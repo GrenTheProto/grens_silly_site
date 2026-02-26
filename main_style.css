@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Leto&family=PT+Serif');
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Leto', sans-serif;
+    background-color: #C8C8f2;
+    margin: 0;
+}
+header {
+    background-color: #8080AA;
+    text-align: center;
+    padding: 25px;
+}
+footer {
+    background-color: #8080AA;
+    text-align: center;
+    padding: 10px;
+}
+h1, h2, h3 {
+    font-family: 'PT Serif', serif;
+}
+img {
+    height: 250px;
+}
+hr {
+    border-color: darkslategray;
+}
+table {
+    border-collapse: collapse;
+    border: 2px, solid;
+    border-color: black;
+}
+tr:nth-child(even) {
+    background-color: #dadafc;
+}
+th, td {
+    padding: 5px;
+    border-color: black;
+}
+
+img.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.rounded-img {
+    border-radius: 25px;
+}
+div.centered-column {
+    margin: auto;
+    width: 40%;
+    min-width: 300px;
+}
+
+tr.header {
+    background-color: #8080AA;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Navbar */
+ul.topnav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333344;
+}
+ul.topnav li a {
+    display: block;
+    color: #e1e1e1;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+ul.topnav li a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+/* Dropdowns */
+.dropdown {
+    position: relative;
+}
+.dropbtn{
+    background-color: #333344;
+    color: #e1e1e1;
+    padding: 18px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333344;
+    min-width: 100%;
+    left: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #222233;
+}
+.dropdown-content a {
+    display: block;
+    color: #e1e1e1;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+/* Flex */
+div.flex-container {
+    display: flex;
+    padding: 5px;
+}
+.default-column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 5px;
+}
